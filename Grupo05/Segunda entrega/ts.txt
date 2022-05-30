@@ -1,0 +1,33 @@
+----------------------------------------TABLA DE SIMBOLOS------------------------------------|
+       NOMBRE           |        TIPO        |              VALOR              |  LONGITUD   |
+---------------------------------------------------------------------------------------------|
+ _0                     |                    |                               0 |     4238875 |
+ a1                     | INT                |                                 |           0 |
+ a2                     | INT                |                                 |           0 |
+ a3                     | INT                |                                 |           0 |
+ l1                     | INT                |                                 |           0 |
+ l2                     | INT                |                                 |           0 |
+ l3                     | INT                |                                 |           0 |
+ r1                     | INT                |                                 |           0 |
+ p1                     | FLOAT              |                                 |           0 |
+ J3                     | FLOAT              |                                 |           0 |
+ k4                     | FLOAT              |                                 |           0 |
+ var1                   | INT                |                                 |           0 |
+ var2                   | INT                |                                 |           0 |
+ var3                   | INT                |                                 |           0 |
+ str1                   | STRING             |                                 |           0 |
+ str2                   | STRING             |                                 |           0 |
+ _5                     | CTE_INT            |                               5 |           1 |
+ _"hola"                | CTE_STRING         |                          "hola" |           6 |
+ _1                     | CTE_INT            |                               1 |           1 |
+ _4                     | CTE_INT            |                               4 |           1 |
+ _3                     | CTE_INT            |                               3 |           1 |
+ _2                     | CTE_INT            |                               2 |           1 |
+ _10                    | CTE_INT            |                              10 |           2 |
+ _6                     | CTE_INT            |                               6 |           1 |
+ _33.50                 | CTE_FLOAT          |                           33.50 |           4 |
+ _588                   | CTE_INT            |                             588 |           3 |
+ _100                   | CTE_INT            |                             100 |           3 |
+ _32766                 | CTE_INT            |                           32766 |           5 |
+ _-32767                | CTE_INT            |                          -32767 |           6 |
+ _"Cadena correcta"     | CTE_STRING         |               "Cadena correcta" |          17 |

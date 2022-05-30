@@ -1,0 +1,124 @@
+-/Prueba declaracion variables/-
+DECVAR
+a1,a2,a3,l1,l2,l3,r1:INT
+p1:FLOAT
+J3,k4:FLOAT
+var1,var2,var3:INT
+str1:STRING
+str2:STRING
+ENDDEC
+
+
+-/Prueba asignaciones/-
+var1:=5
+var2:=5
+var3:=5
+
+-/Prueba READ y WRITE/-
+READ a1
+WRITE "hola"
+
+-/Prueba condiciones/-
+IF(a3==1)
+WRITE a1
+READ a1
+READ a1
+IF(a2==4)
+a:=4
+ELSE
+a:=3
+ENDIF
+a1:=2
+ENDIF
+
+IF(a1>a2 or a1!=10)
+a1:=2
+a2:=2
+ENDIF
+
+IF(a1>a2 or a1!=10)
+a1:=2
+ELSE
+a2:=2
+ENDIF
+
+IF(a1>a2 AND a1!=10)
+a1:=4
+ENDIF
+
+IF(a1>a2 AND a1!=10)
+a1:=4
+ELSE
+a1:=2
+ENDIF
+
+IF(!a1>a2)
+a1:=4
+ENDIF
+
+IF(!a1>a2)
+a1:=4
+ELSE
+a1:=6
+ENDIF
+
+-/Comentario de prueba/-
+
+-/Comentario de prueba
+multilinea/-
+
+-/Prueba ciclo/-
+WHILE(J3 <= k4)
+J3:= k4
+k4:= J3
+ENDWHILE
+
+WHILE(!J3 <= k4)
+J3:= k4
+k4:= J3
+ENDWHILE
+
+
+-/Prueba ciclo y condiciones/-
+WHILE(J3 <= k4)
+IF(a3==1)
+p1:=33.5
+ENDIF
+IF(a2==588)
+p1:=100
+ENDIF
+J3:= k4
+k4:= J3
+ENDWHILE
+
+
+-/Probando cota de enteros/-
+-/a1:=32767/-
+a1:=32766
+-/a2:=-32768/-
+a2:=-32767
+
+-/Probando cota de float/-
+-/p1:=0.00000000000000000000000000000000000001/-
+-/p1:=0.0000000000000000000000000000000000001/-
+-/p1:=350000000000000000000000000000000000000.0/-
+-/p1:=340000000000000000000000000000000000000.0/-
+
+-/Probando cota de String/-
+-/str1:="Cadena que contiene mas caracteres de los permitidos"/-
+str2:="Cadena correcta"
+
+-/Probando RESTO/-
+a1 := a1%10
+
+-/Probando DIV/-
+a1 := a1/10
+
+-/Probando AVG/-
+l1 := 2
+l2 := 4
+l3 := 6
+r1 := AVG(l1,l2,l3)
+
+-/Probando TAKE/-
+TAKE(*;3;[1;2;3])
